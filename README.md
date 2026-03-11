@@ -15,7 +15,6 @@ This repository owns the native whisper.cpp checkout, model download, and macOS 
 ## Quick start
 
 ```bash
-cd ~/repos/personal/whisper-local-runtime
 npm run whisper:setup
 npm run whisper:start
 ```
