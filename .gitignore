@@ -1,0 +1,7 @@
+node_modules/
+whisper/.env
+whisper/build/
+whisper/models/
+whisper/whisper.cpp-src/
+whisper/*.log
+whisper/*.pid

@@ -1,0 +1,16 @@
+{
+  "name": "whisper-local-runtime",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Shared local whisper.cpp runtime setup and service management.",
+  "type": "module",
+  "scripts": {
+    "whisper:setup": "bash ./whisper/setup.sh",
+    "whisper:start": "bash ./whisper/start.sh",
+    "whisper:logs": "bash ./whisper/logs.sh",
+    "whisper:stop": "bash ./whisper/stop.sh",
+    "whisper:status": "bash ./whisper/status.sh",
+    "whisper:install-service": "bash ./whisper/service-install.sh",
+    "whisper:uninstall": "bash ./whisper/uninstall.sh"
+  }
+}
